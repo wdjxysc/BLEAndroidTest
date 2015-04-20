@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="接收到的体重值(单位：kg)为：" 
+        android:textSize="24sp"
+        android:id="@+id/weight_title"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/weight_value"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_below="@+id/weight_title"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dip"/>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/message"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_below="@+id/weight_value"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dip"/>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="摇一摇"
+            android:textSize="28sp"
+            android:layout_above="@+id/message"
+            android:onClick="startbluethbtn"/>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BluetoothTest</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="blood_sys">收缩压%1$s毫米汞柱</string>
+    <string name="blood_pulse">脉搏%1$s次/每分钟</string>
+    <string name="blood_dia">舒张压%1$s毫米汞柱</string>
+    <string name="eartherm_data">%1$s ℃</string>
+    <string name="fat_weight">体重:%1$skg</string>
+    <string name="fat_zhifanglv">脂肪率:%1$s%%</string>
+    <string name="fat_jirouliang">肌肉量:%1$s%%</string>
+    <string name="fat_shuifenlv">水分率:%1$s%%</string>
+    <string name="fat_guliang">骨量:%1$skg</string>
+    <string name="fat_bmr">BMR:%1$s卡路里</string>
+    <string name="fat_neizangdengji">内脏等级:%1$s级</string>
+    <string name="fat_bmi">BMI:%1$s%%</string>
+</resources>

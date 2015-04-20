@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="接收到的血压数据为："
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/bloodjl_dia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/blood_dia"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/bloodjl_sys"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/blood_sys"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/bloodjl_pulse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/blood_pulse"
+        android:textSize="36sp" />
+  <TextView
+        android:id="@+id/blood_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36sp" />
+</LinearLayout>

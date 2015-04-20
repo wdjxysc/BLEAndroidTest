@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CollectMap>
+
+    <CollectStyle
+        name="血糖"
+        bizcode="1" >
+
+        <CollectModels
+            name="三诺血糖仪"
+            models="1" >
+
+            <ModelName name="SINOCARE" />
+
+            <ModelName name="Sinocare" />
+
+            <ModelName name="BT-Sinocare" />
+        </CollectModels>
+    </CollectStyle>
+
+    <CollectStyle
+        name="体重秤"
+        bizcode="2" >
+
+        <CollectModels
+            name="倍泰体重称"
+            models="1" >
+
+            <ModelName name="eBody-Scale" />
+        </CollectModels>
+    </CollectStyle>
+
+    <CollectStyle
+        name="血压"
+        bizcode="3" >
+
+        <CollectModels
+            name="倍泰血压"
+            models="1" >
+
+            <ModelName name="eBlood-Pressure" />
+        </CollectModels>
+    </CollectStyle>
+
+    <CollectStyle>
+    </CollectStyle>
+
+    <CollectStyle
+        name="体温枪"
+        bizcode="4" >
+
+        <CollectModels
+            name="倍泰体温枪"
+            models="1" >
+
+            <ModelName name="CSR-SP" />
+        </CollectModels>
+    </CollectStyle>
+
+        <CollectStyle
+        name="体成份"
+        bizcode="5" >
+
+        <CollectModels
+            name="倍泰体成份"
+            models="1" >
+
+            <ModelName name="eBody-Fat-Analyzer" />
+            <ModelName name="eBody-Fat-Scale" />
+            <ModelName name="eBody-Scale" />
+        </CollectModels>
+    </CollectStyle>
+</CollectMap>
